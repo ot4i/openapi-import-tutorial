@@ -111,11 +111,11 @@
         "prepare":{
           "overview":{
             "name":"Prepare",
-            "heading":"Explore the provided integration artifacts",
+            "heading":"Create the REST API",
             "_prepareComment":"Creating an IntegrationServer:",
             "sections":[
               {
-                "section":"<b>Create the REST API</b>",
+                "section":"",
                 "steps":{
                   "type":"ordered",
                   "details":[                
