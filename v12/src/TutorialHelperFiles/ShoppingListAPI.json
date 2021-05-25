@@ -13,6 +13,8 @@
   "paths": {
     "/shoppinglist": {
       "get": {
+        "summary": "Get shopping list",
+        "operationId": "getShoppinglist",      
         "parameters": [
           {
             "name": "Limit",
@@ -46,6 +48,8 @@
         }
       },
       "post": {
+        "summary": "Add an item to the list",
+        "operationId": "postItem",      
         "requestBody": {
           "content": {
             "application/json": {
@@ -75,6 +79,7 @@
     "/shoppinglist/{item}": {
       "put": {
         "summary": "Update a specific item",
+        "operationId": "putItem",        
         "parameters": [
           {
             "name": "item",
@@ -102,7 +107,8 @@
         }                  
       },
       "delete": {
-        "summary": "Delete a specific item",      
+        "summary": "Delete a specific item",
+        "operationId": "deleteItem",
         "parameters": [
           {
             "name": "item",
